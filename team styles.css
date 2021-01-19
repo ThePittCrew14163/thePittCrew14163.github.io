@@ -1,4 +1,4 @@
-
+﻿
 	@charset "UTF-8";
 /* unvisited link */
 a:link {
@@ -157,7 +157,7 @@ a:active {
 	position: static;
 	font-family: "Source Sans Pro";
 	color: #343434;
-	padding-bottom:10x;
+	padding-bottom: 10px;
 }
 .container .right_article ul {
 	margin-top: 0px;
