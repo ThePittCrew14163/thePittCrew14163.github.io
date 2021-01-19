@@ -124,7 +124,7 @@ a:active {
 .left_article {
 	width: 50%;
 	float: left;
-	position: absolute;
+	position: static;
 	font-family: "Source Sans Pro";
 	color: #343434;
 	padding-bottom:10x;
@@ -154,7 +154,7 @@ a:active {
 	width: 50%;
 	float: right;
 	padding-top: 0px;
-	position: absolute;
+	position: static;
 	font-family: "Source Sans Pro";
 	color: #343434;
 	padding-bottom:10x;
