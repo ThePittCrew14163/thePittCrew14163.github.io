@@ -2,7 +2,7 @@
 
 /* unvisited link */
 a:link {
-  color: white;
+	color: white;
 }
 
 .link {
@@ -10,17 +10,18 @@ a:link {
 }
 /* visited link */
 a:visited {
-  color: white;
+	color: white;
 }
 /* mouse over link */
 a:hover {
-    color: rgba(255,255,255,1.00);
+	color: rgba(255,255,255,1.00);
 }
 
 /* selected link */
 a:active {
-  color: white;
+	color: white;
 }
+
 .container {
 	background-color: #FFFFFF;
 	width: 90%;
@@ -32,6 +33,7 @@ a:active {
 	padding-right: 0px;
 	padding-bottom: 0px;
 }
+
 .row {
 	width: 100%;
 	margin-top: 0px;
@@ -44,14 +46,17 @@ a:active {
 	padding-left: 0px;
 	display: inline-block
 }
-.row.blockDisplay {
-	display: block;
-}
+
+	.row.blockDisplay {
+		display: block;
+	}
+
 .column_half {
 	width: 50%;
 	float: left;
 	margin-top: 0px;
 }
+
 .columns {
 	width: 25%;
 	float: left;
@@ -68,14 +73,17 @@ a:active {
 	margin-left: 0px;
 	margin-right: 0px;
 }
+
 .row .columns p {
 	padding-left: 10%;
 	padding-right: 10%;
 }
+
 .container .columns h4 {
 	text-align: center;
 	color: #2D3EBD;
 }
+
 .primary_header {
 	width: 100%;
 	height: 500px;
@@ -84,9 +92,10 @@ a:active {
 	clear: left;
 	border-bottom: 2px solid #FFFFFF;
 	position: relative;
-  	text-align: center;
- 	color: white;
+	text-align: center;
+	color: white;
 }
+
 .secondary_header {
 	width: 100%;
 	padding-top: 50px;
@@ -94,6 +103,7 @@ a:active {
 	background-color: #2D3EBD;
 	clear: left;
 }
+
 .container .secondary_header ul {
 	margin-top: 0%;
 	margin-right: auto;
@@ -105,6 +115,7 @@ a:active {
 	padding-left: 0px;
 	width: 100%;
 }
+
 .secondary_header ul li {
 	list-style: none;
 	float: left;
@@ -120,22 +131,26 @@ a:active {
 	width: 20%;
 	transition: all 0.3s linear;
 }
-.secondary_header ul li:hover {
-	color: #2D3EBD;
-	cursor: pointer;
-}
+
+	.secondary_header ul li:hover {
+		color: #2D3EBD;
+		cursor: pointer;
+	}
+
 .left_article {
 	width: 50%;
 	float: left;
 	position: static;
 	font-family: "Source Sans Pro";
 	color: #343434;
-	padding-bottom:10px;
+	padding-bottom: 10px;
 	padding-top: 0px;
 }
+
 .noDisplay {
 	display: none;
 }
+
 .container .left_article h3 {
 	padding-left: 5%;
 	padding-right: 5%;
@@ -144,6 +159,7 @@ a:active {
 	font-weight: bold;
 	text-transform: uppercase;
 }
+
 .container .left_article p {
 	padding-left: 5%;
 	padding-right: 5%;
@@ -153,6 +169,7 @@ a:active {
 	margin-bottom: 15px;
 	color: #B3B3B3;
 }
+
 .right_article {
 	width: 50%;
 	float: right;
@@ -162,6 +179,7 @@ a:active {
 	color: #343434;
 	padding-bottom: 10px;
 }
+
 .container .right_article ul {
 	margin-top: 0px;
 	margin-right: 0px;
@@ -172,6 +190,7 @@ a:active {
 	padding-bottom: 0px;
 	padding-left: 0px;
 }
+
 .right_article ul li {
 	font-family: "Source Sans Pro";
 	list-style: none;
@@ -190,17 +209,20 @@ a:active {
 	transition: all 0.3s linear;
 	border-left: 5px solid #717070;
 }
-.right_article ul li:hover {
-	background-color: #FFFFFF;
-	width: 60%;
-	float: left;
-	font-family: "Source Sans Pro";
-	color: #343434;
-	padding-bottom: 15px;
-}
+
+	.right_article ul li:hover {
+		background-color: #FFFFFF;
+		width: 60%;
+		float: left;
+		font-family: "Source Sans Pro";
+		color: #343434;
+		padding-bottom: 15px;
+	}
+
 .footer {
 	background-color: #717070;
 }
+
 .title {
 	font-weight: bold;
 	font-style: normal;
@@ -210,11 +232,12 @@ a:active {
 	color: #FFFFFF;
 	letter-spacing: 2px;
 	position: absolute;
- 	top: 50%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	padding-bottom: 250px;
 }
+
 .placeholder {
 	/* [disabled]max-width: 400px;
 */
@@ -227,14 +250,17 @@ a:active {
 	padding-bottom: 30px;
 	height: 100%;
 }
+
 .left_half {
 	background-color: #2D3EBD;
 }
+
 .container .column_half.left_half h2 {
 	color: #FFFFFF;
 	font-family: "Source Sans Pro";
 	text-align: center;
 }
+
 .right_half {
 	background-color: #2D3EBD;
 	color: #FFFFFF;
@@ -242,10 +268,12 @@ a:active {
 	text-align: center;
 	font-weight: bold;
 }
+
 .column_title {
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
+
 .copyright {
 	text-align: center;
 	background-color: #717070;
@@ -256,6 +284,7 @@ a:active {
 	border-top-width: 2px;
 	font-family: "Source Sans Pro";
 }
+
 .right-words {
 	background-color: #FFFFFF;
 	width: 60%;
@@ -263,7 +292,8 @@ a:active {
 	font-family: "Source Sans Pro";
 	color: #343434;
 	padding-bottom: 15px;
-	}
+}
+
 body {
 	margin-top: 0px;
 	margin-right: 0px;
@@ -352,6 +382,7 @@ ul li:hover {
 
 #menu {
 }
+
 @media (max-width: 320px) {
 	.secondary_header ul li {
 		float: none;
@@ -543,9 +574,7 @@ ul li:hover {
 
 		.secondary_header ul li {
 			margin-top: 10px;
-			margin-right: 7%;
 			margin-bottom: 10px;
-			margin-left: 7%;
 		}
 
 	.left_article {
