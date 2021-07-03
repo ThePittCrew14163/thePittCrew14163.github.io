@@ -1,5 +1,24 @@
-﻿
-	@charset "UTF-8";
+﻿@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%
+}
+
+body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	background-color: #FFFFFF;
+}
+
+main {
+	flex-grow: 1;
+}
 /* unvisited link */
 a:link {
   color: white;
@@ -127,7 +146,7 @@ a:active {
 	position: static;
 	font-family: "Source Sans Pro";
 	color: #343434;
-	padding-bottom:10x;
+	padding-bottom:10px;
 	padding-top: 0px;
 }
 .noDisplay {
@@ -507,7 +526,7 @@ body {
   color: white;
   padding: 15px 32px;
   float: left;
-  positon:fixed;
+  position:static;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
@@ -523,7 +542,7 @@ body {
   line-height: inherit;
   white-space: nowrap;
 	}
-.Buttontwo{
+.Buttontwo {
 		
   background-color: #2D3EBD; 
   border: none;
@@ -535,16 +554,16 @@ body {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer
-	}
-	}
+}
+
 .white
-	ul li:hover {
+ul li:hover {
 	color: #2D3EBD;
 	cursor: pointer;
+}
 a:link {
   color: red;
 }
- 
-}
+
 #menu {
 }
