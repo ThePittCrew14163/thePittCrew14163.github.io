@@ -1,24 +1,5 @@
 ﻿@charset "UTF-8";
 
-* {
-	box-sizing: border-box;
-}
-
-html {
-	height: 100%
-}
-
-body {
-	height: 100%;
-	padding: 0;
-	margin: 0;
-	display: flex;
-	background-color: #FFFFFF;
-}
-
-main {
-	flex-grow: 1;
-}
 /* unvisited link */
 a:link {
   color: white;
