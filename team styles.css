@@ -270,6 +270,16 @@ body {
 	margin-bottom: 0px;
 	margin-left: 0px;
 }
+.thumbnail {
+	width: 100px;
+	border-radius: 200px;
+	height: 100px;
+	margin-left: auto;
+}
+.thumbnail_align {
+	text-align: center;
+}
+
 
 @media (max-width: 320px) {
 	.secondary_header ul li {
@@ -500,17 +510,6 @@ body {
 }
 
 @media (min-width: 1001px) {
-
-	.thumbnail {
-		width: 100px;
-		border-radius: 200px;
-		height: 100px;
-		margin-left: auto;
-	}
-
-	.thumbnail_align {
-		text-align: center;
-	}
 
 	.social {
 		text-align: center;
