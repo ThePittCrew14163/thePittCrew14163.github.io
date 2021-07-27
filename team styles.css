@@ -307,7 +307,6 @@ body {
 	height: 100px;
 	margin-left: auto;
 }
-
 .thumbnail_align {
 	text-align: center;
 }
@@ -572,10 +571,10 @@ ul li:hover {
 		padding-bottom: 30px;
 	}
 
-		.secondary_header ul li {
-			margin-top: 10px;
-			margin-bottom: 10px;
-		}
+	.secondary_header ul li {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
 
 	.left_article {
 		height: auto;
