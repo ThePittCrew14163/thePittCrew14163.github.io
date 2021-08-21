@@ -1,5 +1,5 @@
 async function RenderTempletesAsync() {
-    let promisething = await fetch("templates.html")
+    let promisething = await fetch("https://thepittcrew14163.github.io/templates.html")
     let data = await promisething.text()
     parser = new DOMParser()
     let templates = parser.parseFromString(data, 'text/html')
